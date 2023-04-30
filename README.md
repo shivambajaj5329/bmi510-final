@@ -38,7 +38,7 @@ Clone this repository to your project directory using the following command:
 
 <pre>
 ```
-git clone https://github.com/yourusername/bmi510-final.git
+git clone https://github.com/shivambajaj5329/bmi510-final
 ```
 </pre>
 
