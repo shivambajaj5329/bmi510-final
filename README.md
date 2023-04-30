@@ -54,9 +54,3 @@ Make sure to replace path/to/bmi510-final with the actual path to the cloned rep
 
 ### Step 3 - Call Functions
 You can now call the functions directly in your R script. If you need help understanding how to use the functions or the number of arguments to pass, run help(funcName) in your console or terminal.
-
-### Contributing
-If you would like to contribute to the development of this package, please follow these guidelines:
-Step 1 - Fork the repository and create a new branch for your feature or bugfix.
-Step 2 - Commit your changes to the new branch and push it to your forked repository.
-Step 3 - Create a pull request with a clear description of your changes.
