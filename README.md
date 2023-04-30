@@ -8,11 +8,11 @@ This repository contains the R package developed for the BMI 510 final project. 
 ## Implemented Functions
 
 1. rando - A wrapper around sample that tests whether x is an atomic vector or dataframe-like object and then returns either n samples or n rows as appropriate.
-2. is_min = function(x, na.rm = T) - Accepts an atomic vector x and returns a logical with TRUE where x equals its minimum value.
-3. is_max = function(x, na.rm = T) - Accepts an atomic vector x and returns a logical with TRUE where x equals its maximum value.
-4. rep_mat = function(x, M=1, N=1) - Port of repmat.m in Matlab. Accepts a dataframe or matrix and x and returns a matrix created by replicating the rows (or columns) M (N) times.
-5. classes = function(x) - Returns a character vector containing the classes of each variable in a tibble x. (Similar to names.)
-6. df_scale = function(x, center = T, scale = T) - Returns a tibble x in which the numeric variables have been scaled with scale. It is not necessary to retain the variable attributes, but it is more useful if you do. (Uses answer from 5.)
+2. is_min - Accepts an atomic vector x and returns a logical with TRUE where x equals its minimum value.
+3. is_max - Accepts an atomic vector x and returns a logical with TRUE where x equals its maximum value.
+4. rep_mat - Port of repmat.m in Matlab. Accepts a dataframe or matrix and x and returns a matrix created by replicating the rows (or columns) M (N) times.
+5. classes - Returns a character vector containing the classes of each variable in a tibble x. (Similar to names.)
+6. df_scale - Returns a tibble x in which the numeric variables have been scaled with scale. It is not necessary to retain the variable attributes, but it is more useful if you do. (Uses answer from 5.)
 7. log_likelihood_norm(x, mean, sd) - Returns the log-likelihood of a sample x under the normal, uniform, chi-squared, f, or t densities, with parameterizations as described in ?dnorm, etc. 
 8. log_likelihood_unif(x, min, max) - Returns the log-likelihood of a sample x under the uniform densities, with parameterizations as described in ?dnorm, etc. 
 9. log_likelihood_chisq(x, df) - Returns the log-likelihood of a sample x under the chi-squared densities, with parameterizations as described in ?dnorm, etc. 
@@ -37,9 +37,7 @@ To use this package in your project, follow these steps:
 Clone this repository to your project directory using the following command:
 
 <pre>
-```
 git clone https://github.com/shivambajaj5329/bmi510-final
-```
 </pre>
 
 ### Step 2 - Source the Package
